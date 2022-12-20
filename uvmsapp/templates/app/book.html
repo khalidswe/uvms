@@ -1,0 +1,45 @@
+{% extends "app/base1.html" %}
+{% block content %}
+		<!-- header section code end -->
+		<section class="login-section">
+			<div class="login-box">
+				<div class="avater">
+					<img src="https://drive.google.com/uc?export=view&id=1ufQs5EiALRtXIKjSxvbt8NgGOPxz4q-K" width="100" height="100">
+				</div>
+				<form class="login-form" method="POST" action="{% url 'searchbus' %}">
+					{% csrf_token %}
+					<div class="form-group">
+						<label for="">From </label>
+						<select name="time" id="" class="form-control">
+							<option data-display="Select Route">Select From</option>
+							<option >Dhanmondi</option>
+							<option >Mirpur</option>
+							<option >Uttara</option>
+							<option >Tongi</option>
+							<option >Narayanganj</option>
+							<option >Varsity Campus</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="">To </label>
+						<select name="time" id="" class="form-control">
+							<option data-display="Select Route">Select Destination</option>
+							<option >Dhanmondi</option>
+							<option >Mirpur</option>
+							<option >Uttara</option>
+							<option >Tongi</option>
+							<option >Narayanganj</option>
+							<option >Varsity Campus</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="">Data :</label>
+						<input type="date" placeholder="Enter your Address" name="pickup" class="form-control">
+					</div>
+					<div class="button">
+						<button class="btn btn-primary">Search</button>
+					</div>
+				</form>
+			</div>
+		</section>
+{% endblock %}

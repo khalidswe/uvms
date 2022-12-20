@@ -1,0 +1,89 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+/*details section start*/
+.home{
+	width: 100%;
+	min-height: 100vh;
+	position: relative;
+	background: #FAEBD7;
+	display: grid;
+	align-items: center;
+	grid-template-columns: repeat(2, 1fr);
+	padding-top: 150px;
+}
+.text h1{
+	font-size: 40px;
+	letter-spacing: 2px;
+	margin: 0px 0px 0px 20px;
+}
+.text p{
+	margin: 10px 0px 20px 20px;
+}
+.img img{
+	width: 600px;
+	height: 100%;
+}
+/*button section start*/
+.button{
+	width: 100%;
+	background: #FAEBD7;
+	text-align: center;
+	padding: 40px 0px;
+}
+.button .btn{
+    padding: 10px 90px;
+    background: aqua;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    border: 1px solid aqua;
+    transition: 1s;
+}
+.button .btn:hover, .button .btn:focus{
+	background: #f2622c;
+}
+.button .btn a{
+	text-decoration: none;
+    color: #000;
+}
+/*footer section start*/
+.footer{
+	width: 100%;
+	padding: 40px 0px 30px;
+	background: #0c1234;
+}
+.footer .footer-inner{
+	width: 100%;
+	text-align: center;
+}
+.footer .footer-inner li{
+	display: inline-block;
+	list-style: none;
+}
+.footer .footer-inner li i{
+	font-size: 20px;
+	color: #b1b7dd;
+	padding: 0px 15px 0px 0px;
+	transition: 1s;
+
+}
+.footer .footer-inner li i:hover, .footer .footer-inner li i:focus{
+	color: #f2622c;
+}
+
+.footer p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
+	text-align: center;
+	color: #616ca8;
+	margin: 0px;
+}

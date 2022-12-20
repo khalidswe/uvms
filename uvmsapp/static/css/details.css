@@ -1,0 +1,98 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+/*details section code start*/
+.detail{
+	width: 100%;
+	background: #FAEBD7;
+	padding: 180px 0px 80px;
+	border-bottom: 1px solid;
+}
+.box1{
+	width: 	40%;
+	float: left;
+}
+.box1 h1{
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 35px 0px 25px;
+}
+.box1 table thead td{
+	padding: 0px 20px 10px 5px;
+    font-size: 16px;
+    font-weight: 700;
+    border-right: 1px solid;
+}
+.box1 table tbody td{
+	padding: 0px 20px 10px 5px;
+    font-size: 15px;
+    font-weight: 500;
+    border-right: 1px solid;
+}
+.box2{
+	width: 	40%;
+	float: right;
+}.box2 h1{
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 35px 0px 25px;
+}
+.box2 table thead td{
+	padding: 0px 20px 10px 5px;
+    font-size: 16px;
+    font-weight: 700;
+    border-right: 1px solid;
+}
+.box2 table tbody td{
+	padding: 0px 20px 10px 5px;
+    font-size: 15px;
+    font-weight: 500;
+    border-right: 1px solid;
+}
+/*route section code start*/
+.route{
+	width: 100%;
+	background: #FAEBD7;
+	padding: 20px 0px 80px;
+}
+.box3{
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+}
+.box3 h1{
+	font-size: 40px;
+	font-weight: 700;
+	padding: 50px 0px;
+}
+.box4{
+	width: 100%;
+}
+.box4 table{
+	margin: 0px auto;
+}
+.box4 table thead td{
+	padding: 0px 220px 10px 5px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    border-right: 1px solid;
+}
+.box4 table tbody td{
+	padding: 0px 20px 10px 5px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-right: 1px solid;
+}

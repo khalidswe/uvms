@@ -1,0 +1,44 @@
+{% extends "app/base1.html" %}
+{% block content %}
+
+<!-- header section code end -->
+<section class="login-section">
+    <div class="login-box">
+        <div class="avater">
+            <img src="https://drive.google.com/uc?export=view&id=1ufQs5EiALRtXIKjSxvbt8NgGOPxz4q-K" width="20" height="20">
+        </div>
+        <h2>Update {{stud.name}}'s Informations</h2>
+        <form class="login-form" method="POST" action="{% url 'updateprofile' pk=user.id %}" enctype="multipart/form-data">
+        {% csrf_token %}
+            <div class="form-group">
+                <label for="">Name :</label>
+                <input type="text" placeholder="" name="name" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="">Student Id :</label>
+                <input type="text" placeholder="" name="student_id" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="">Address :</label>
+                <input type="text" placeholder="" name="address" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="">Department :</label>
+                <input type="text" placeholder="" name="department" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="">Contact :</label>
+                <input type="text" placeholder="" name="contact" class="form-control">
+            </div>
+            <div class="form-group">
+                <label class="custom-file-label rounded"><i class="mdi mdi-cloud-upload mr-1"></i> Upload Profile Picture :</label>
+                <input type="file" name="pic" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+            </div>
+            <div class="button">
+                <button class="btn btn-primary">Update</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+{% endblock %}

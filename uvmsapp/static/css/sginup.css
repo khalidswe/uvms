@@ -1,0 +1,96 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+.login-section{
+	width:100%;
+}
+.login-box{
+	 width: 500px;
+	 margin: 150px auto;
+	 background-color: #FAEBD7;
+	 padding: 50px;
+	 border-radius: 20px;
+	 border: 1.5px solid black;
+}
+.avater{
+	width: 100%;
+	text-align: center;
+}
+.avater img{
+	width: 150px;
+	height: 150px;
+	border-radius: 100%; 
+}
+.login-box h2{
+	text-align: center ;
+	font-size: 14px;
+	color: #000;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing:1px;
+	padding: 25px 0px;
+}
+.login-form{
+ 	width: 100%;	
+}
+.form-group{
+	width: 100%;
+	margin: 15px 0px;
+}
+.form-group label{
+	font-size: 14px;
+	font-weight: 700;
+	color: #808080;
+	display: block;
+	margin: 0px 0px 5px;
+}
+.form-group .form-control{
+	width: 95%;
+    padding: 12px;
+    border: 2px solid black;
+    font-size: 14px;
+
+}
+.form-group .btn{
+	padding: 15px 45px;
+	background-color: #7CFC00;
+	color: #808080;
+	font-weight: 700;
+	border-radius: 10%;
+}
+.robot{
+	padding: 10px 0px 0px;
+}
+.devision{
+	padding: 5px 0px 0px;
+}
+/*button section start*/
+.button{
+	width: 100%;
+	background: #FAEBD7;
+	text-align: center;
+	padding: 40px 0px;
+}
+.button .btn{
+    padding: 10px 90px;
+    background: aqua;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    border: 1px solid aqua;
+    transition: 1s;
+}
+.button .btn:hover, .button .btn:focus{
+	background: #548ae1;
+}
+.button .btn a{
+	text-decoration: none;
+    color: #000;
+}

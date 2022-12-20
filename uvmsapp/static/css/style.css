@@ -1,0 +1,129 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+/*header section code start*/
+.header{
+	width: 100%;
+	background: #8bcfe4;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+}
+.header .navbar{
+	width: 100%;
+}
+.header .navbar img{
+	width: 100px;
+	height: 100px;
+}
+.header .navbar .nav-item{
+	margin: 10px;
+}
+.header .navbar .nav-item .nav-link{
+	font-size: 20px;
+}
+.header .btn{
+    padding: 10px 50px;
+    background: aqua(57, 191, 191);
+    border: 1px solid aqua;
+    transition: 1s;
+   	color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.header .btn:hover, .header .btn:focus{
+	background: #f2622c;
+}
+.header .btn a{
+	text-decoration: none;
+}
+/*details section code start*/
+.details{
+	width: 100%;
+	padding: 40px 0px;
+	background: #eee;
+	padding-top: 200px;
+}
+.details h2{
+	padding: 35px 0px;
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #00FFFF;
+}
+.details p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+}
+.details .img{
+	padding: 40px 0px 0px 160px;
+	border-radius: 100%;
+}
+
+/*bus section code start*/
+.bus{
+	width: 100%;
+	padding: 80px 0px;
+	background: #FFF8DC;
+}
+.bus h2{
+	padding: 35px 0px;
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #00FFFF;
+}
+.bus p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+}
+.bus .img{
+    padding: 100px 40px 0px 60px;
+	border-radius: 100%;
+}
+/*footer section code start*/
+.footer{
+	width: 100%;
+	padding: 40px 0px 30px;
+	background: #0c1234;
+}
+.footer .footer-inner{
+	width: 100%;
+	text-align: center;
+}
+.footer .footer-inner li{
+	display: inline-block;
+	list-style: none;
+}
+.footer .footer-inner li i{
+	font-size: 20px;
+	color: #b1b7dd;
+	padding: 0px 15px 0px 0px;
+	transition: 1s;
+
+}
+.footer .footer-inner li i:hover, .footer .footer-inner li i:focus{
+	color: #f2622c;
+}
+
+.footer p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
+	text-align: center;
+	color: #616ca8;
+	margin: 0px;
+}

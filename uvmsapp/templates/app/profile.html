@@ -1,0 +1,47 @@
+{% extends "app/base1.html" %}
+{% block content %}
+
+<!-- header section code end -->
+<section class="login-section">
+    <div class="login-box">
+        {% if user and stud %}
+        <div class="avater">
+            <img src="{{stud.pic.url}}" alt="">
+            <!-- <img src="https://drive.google.com/uc?export=view&id=1ufQs5EiALRtXIKjSxvbt8NgGOPxz4q-K" width="20" height="20"> -->
+        </div>
+        <h2> {{stud.name}}'s Profile</h2>
+        {% if msg %}
+            <h2 style="color: green;"> {{msg}}</h2>
+        {% endif %}
+
+            <div class="form-group">
+                <label for="">Name : {{stud.name}}</label>
+            </div>
+            <div class="form-group">
+                <label for="">Student Id : {{stud.student_id}}</label>
+            </div>
+            <div class="form-group">
+                <label for="">E-mail : {{user.email}}</label>
+            </div>
+            <div class="form-group">
+                <label for="">User Name : {{user.user_name}}</label>
+            </div>
+            <div class="form-group">
+                <label >Address : {{stud.address}}</label>
+            </div>
+            <div class="form-group">
+                <label for="">Department : {{stud.department}}</label>
+            </div>
+            <div class="form-group">
+                <label for="">Contact : {{stud.contact}}</label>
+            </div>
+        </h2>
+        <form class="button" action="{% url 'updateprofilepage' pk=user.id %}" method="post">
+            {% csrf_token %}
+            <input  class="btn btn-primary" type="submit" value="Update Profile">
+        </form>
+        {% endif %}
+    </div>
+</section>
+
+{% endblock %}
